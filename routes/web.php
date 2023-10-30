@@ -103,3 +103,8 @@ Route::delete('setting/{id}', [SettingController::class, 'destroy'])->name('sett
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('post', function() {
+    echo "haii";
+});
+
