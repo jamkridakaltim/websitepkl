@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('post', function() {
-    echo "hello";
+    echo "haii";
 });
+
